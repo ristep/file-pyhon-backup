@@ -6,3 +6,14 @@ client:
 config:
   dbList: foodlog,phpmyadmin
   backupDir: ./backup
+  
+backupList:
+  - /home/riate/python/db_backup
+  - /home/riste/python/file-python-backup
+  - /home/riste/python/hellow
+
+exclude:
+  - "*.filetype.to.exclude"
+  - "*.another.to.exclude"
+  - "/path/to/exclude"
+  - "/another/path/to/exclude"
